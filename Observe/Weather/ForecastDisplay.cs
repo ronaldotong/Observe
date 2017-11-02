@@ -13,6 +13,7 @@ namespace Observe.Weather
             this.weatherData = weatherData;
             weatherData.RegisterObserver(this);
             labelBoardName.Text = "ForecastDisplay";
+            Text = "ForecastDisplay";
         }
 
         public void Update(float temp, float humidity, float pressure)

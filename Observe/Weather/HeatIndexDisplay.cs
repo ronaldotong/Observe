@@ -12,6 +12,7 @@ namespace Observe.Weather
             this.weatherData = weatherData;
             weatherData.RegisterObserver(this);
             labelBoardName.Text = "HeatIndexDisplay";
+            Text = "HeatIndexDisplay";
         }
 
         public void Update(float t, float rh, float pressure)
